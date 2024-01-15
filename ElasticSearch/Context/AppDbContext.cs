@@ -6,7 +6,7 @@ namespace ElasticSearch.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=LAPTOP-7I9ITMSM\\SQLEXPRESS;Initial Catalog=ElasticSearchTest;Integrated Security=True; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Data Source=****;Initial Catalog=ElasticSearchTest;Integrated Security=True; TrustServerCertificate=True");
         }
 
 
